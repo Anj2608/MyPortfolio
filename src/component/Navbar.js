@@ -33,6 +33,14 @@ export default function Navbar() {
             >
               About
             </Link>
+
+            <Link
+              href="/resume"
+              className="block py-2 hover:bg-blue-100 text-gray-700"
+              onClick={() => setIsOpen(false)}
+            >
+              Resume
+            </Link>
           </div>
         )}
       </div>
