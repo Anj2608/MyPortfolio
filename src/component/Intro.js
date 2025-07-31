@@ -45,6 +45,8 @@ export default function Intro() {
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">MySQL</li>
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">Three.js</li>
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">WordPress</li>
+            <li className="bg-white/70 px-3 py-1 rounded-full shadow">MongoDb</li>
+            <li className="bg-white/70 px-3 py-1 rounded-full shadow">Express.js</li>
           </ul>
         </div>
       </div>
