@@ -1,20 +1,57 @@
+// "use client";
+
+// import Navbar from "@/component/Navbar";
+// import AboutUs from "@/component/AboutUs";
+// export default function About() {
+//   return (
+//     <>
+//     <div
+//       className="min-h-screen bg-cover bg-center bg-no-repeat overflow-auto relative"
+//       style={{ backgroundImage: "url('/background.jpg')" }} 
+//     >
+
+//          <main className="font-sans flex flex-col items-center justify-center h-[600px] px-6 sm:px-20 bg-white/30 backdrop-blur-md rounded-xl shadow-2xl m-8 border border-white/40">
+//          <Navbar />
+//          <AboutUs/>
+//          </main>
+//     </div>
+//     </>
+//   )
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 "use client";
 
 import Navbar from "@/component/Navbar";
 import AboutUs from "@/component/AboutUs";
+
 export default function About() {
   return (
-    <>
     <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat overflow-auto relative"
-      style={{ backgroundImage: "url('/background.jpg')" }} 
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: "url('/background.jpg')" }}
     >
+      {/* Navbar */}
+      <div className="w-full px-6 py-4">
+        <Navbar />
+      </div>
 
-         <main className="font-sans flex flex-col items-center justify-center h-[600px] px-6 sm:px-20 bg-white/30 backdrop-blur-md rounded-xl shadow-2xl m-8 border border-white/40">
-         <Navbar />
-         <AboutUs/>
-         </main>
+      {/* About Section */}
+      <main className="w-full flex justify-center px-4 sm:px-8 py-10">
+        <AboutUs />
+      </main>
     </div>
-    </>
-  )
+  );
 }
