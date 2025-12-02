@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import Image from "next/image";
 
 export default function Intro() {
   return (
@@ -10,22 +11,31 @@ export default function Intro() {
         
         {/* Left Image */}
         <div className="w-full md:w-1/2">
-          <img
+          {/* <img
             src="/anjali.jpg" // Replace with your image path
             alt="Intro"
             className="w-full h-auto rounded-md"
-          />
+          /> */}
+
+          <Image
+  src="/anjali.jpg"
+  alt="Intro"
+  width={400}
+  height={400}
+  className="w-full h-auto rounded-md"
+/>
+
         </div>
 
         {/* Right Text */}
         <div className="w-full md:w-1/2">
-          <h1 className="text-4xl font-bold mb-4">Hi 👋, I'm Anjali</h1>
+          <h1 className="text-4xl font-bold mb-4">Hi 👋, I&#39;m Anjali</h1>
           <ReactTyped
         strings={[
-          "I'm a MERN Stack Developer",
-          "I'm a Frontend Developer",
-          "I'm a Full Stack Developer",
-          "I'm a React Developer",
+          "I&#39;m a MERN Stack Developer",
+          "I&#39;m a Frontend Developer",
+          "I&#39;m a Full Stack Developer",
+          "I&#39;m a React Developer",
         ]}
         typeSpeed={50}
         backSpeed={30}
@@ -33,7 +43,7 @@ export default function Intro() {
         className="text-gray-800 text-3xl font-medium"
       />
           <p className="text-gray-700 leading-relaxed">
-           I'm Anjali, a passionate web developer from Jharkhand with experience in building responsive websites and dynamic web apps using React, Next.js, Node.js, and Tailwind CSS. I love solving problems, learning new tools, and turning ideas into functional, beautiful experiences.
+           I&#39;m Anjali, a passionate web developer from Jharkhand with experience in building responsive websites and dynamic web apps using React, Next.js, Node.js, and Tailwind CSS. I love solving problems, learning new tools, and turning ideas into functional, beautiful experiences.
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-800">Tech Stack:</h3>
