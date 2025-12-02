@@ -38,6 +38,7 @@ export default function Intro() {
 
           <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-800">Tech Stack:</h3>
           <ul className="flex flex-wrap gap-3 text-sm text-gray-600">
+            <li className="bg-white/70 px-3 py-1 rounded-full shadow">Javascript</li>
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">React</li>
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">Next.js</li>
             <li className="bg-white/70 px-3 py-1 rounded-full shadow">Tailwind CSS</li>
